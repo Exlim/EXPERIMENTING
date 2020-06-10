@@ -1,0 +1,106 @@
+/*
+This file created by Paul Brokenshire
+Based on work produced by Andrew Hawrishkewich
+Tutorial file created by: Corrina Tang
+
+selector {
+property: value;
+property2: value;
+}
+
+*/
+
+
+
+html{
+/* default font is changed */
+font-family:Helvetica, Arial, sans-serif;
+margin: 1rem;
+} 
+
+body{
+	font-family:Helvetica, Verdana, sans-serif;
+	margin: 1rem;
+	font-size: 1.25rem;
+}
+
+
+h1{
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2.25rem;
+}
+
+h3{
+	font-size: 1.6rem;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0;
+}
+
+p, ol, ul {
+	max-width: 40rem;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+	border: 1px solid black;
+}
+
+figure{
+	margin: 0;
+}
+
+figcaption{
+	font-style: italic;
+}
+
+a {
+	color: rgb(0,255,255);
+}
+
+a:active, a:hover, a:focus {
+	color:rgb(0, 255, 0);
+	text-decoration: none;
+	transition: color 2.5s;
+	/** this will prevent there being a line under the link **/
+}
+
+code, samp {
+	display: block;
+	background-color: rgb(230,230,230);
+	padding: 0.5rem;
+}
+
+section{
+	padding:1em;
+	margin:0;
+}
+
+
+.nav-button {
+	display: block;
+	color:white;
+	background-color:rgb(250,100,75);
+	font-size: 1.5rem;
+	max-width: 50%;
+
+	/* padding: top right bottom left; would be */
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	border-color: black ;
+	transition: background-color 0.5s ease-out;
+}
+
+.nav-button:active, .nav-button:hover, .nav-button:focus {
+color: white;
+background-color: rgb(50,50,50);
+}
+
+
+
+
