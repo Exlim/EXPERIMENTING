@@ -1,0 +1,9 @@
+# exclude all jpg and jpeg
+*.jpg;
+*.jpeg;
+
+# exclude all png
+*.png;
+
+# exclude all svg
+*.svg;
